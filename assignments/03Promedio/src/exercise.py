@@ -1,7 +1,11 @@
 def main():
     #escribe tu código abajo de esta línea
-    pass
-
-
+    a = float(input("Calificación de la materia: "))
+    b = float(input("Calificación de la materia: "))
+    c = float(input("Calificación de la materia: "))
+    d = float(input("Calificación de la materia: "))
+    prm = (a+b+c+d) / 4
+    print("El promedio es:",prm)
+    
 if __name__ == '__main__':
     main()
